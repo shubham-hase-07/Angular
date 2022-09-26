@@ -1,0 +1,44 @@
+.footer{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: black;
+    padding: 20px 10px;
+    color: #fff;
+}
+.col-lg-6{
+    width: 33.33%;
+    padding-left: 120px;
+    justify-content:center;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.col-lg-4{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-2{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    
+    font-size: 27px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 7px;
+    font-size: 17px;
+}
+a:hover{
+    color: var(--primary-color);
+}
+i{
+    padding: 0px 10px;
+}

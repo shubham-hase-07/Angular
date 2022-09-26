@@ -1,0 +1,56 @@
+.banner{
+    background-image: url(../../../assets/imgs/banner.jpg);
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.content{
+    top: 35%;
+    left: 20%;
+    position: absolute;
+}
+
+.content a{
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+    
+}
+
+.content a:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.highlight{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: italic;
+}
+.stepBox{
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stepBox h1{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.stepBox p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
