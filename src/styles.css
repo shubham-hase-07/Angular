@@ -6,9 +6,11 @@
 
 }
 :root{
-    --primary-color: orangered;
+    --primary-color: orange;
+    ;
     --secondary-color: #162328;
 }
 body{
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
