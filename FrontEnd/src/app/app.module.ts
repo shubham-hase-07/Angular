@@ -11,7 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import {HttpClientModule} from '@angular/common/http'
 import {CurrencyPipe} from '@angular/common';
-import { OrderComponent } from './pages/order/order.component';
+
 import {ReactiveFormsModule} from '@angular/forms';
 import { OderformComponent } from './pages/oderform/oderform.component'
 
@@ -24,7 +24,6 @@ import { OderformComponent } from './pages/oderform/oderform.component'
     MenuComponent,
     AboutComponent,
     ContactComponent,
-    OrderComponent,
     OderformComponent
     
   ],
