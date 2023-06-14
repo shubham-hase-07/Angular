@@ -1,0 +1,15 @@
+.navbar-nav .nav-link.active-link{
+    color: var(--primary-color);
+   border-radius: 3px;
+    background-color: orange;
+    color: #ffff;
+}
+.navbar-nav .nav-link{
+    color: var(--secondary-color);
+}
+ .navbar-brand{
+    background-color: orange;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+ }

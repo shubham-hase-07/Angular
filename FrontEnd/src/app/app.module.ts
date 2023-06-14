@@ -9,6 +9,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import {HttpClientModule} from '@angular/common/http'
+import {CurrencyPipe} from '@angular/common';
+import { OrderComponent } from './pages/order/order.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import { OderformComponent } from './pages/oderform/oderform.component'
 
 @NgModule({
   declarations: [
@@ -18,11 +23,16 @@ import { ContactComponent } from './pages/contact/contact.component';
     HomeComponent,
     MenuComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    OrderComponent,
+    OderformComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

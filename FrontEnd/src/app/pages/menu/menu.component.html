@@ -1,0 +1,21 @@
+<div class="container" *ngIf="foodItems?.length; else noFoodItems">
+  <div class="row" *ngFor="let item of foodItems">
+    <div class="card" style="width: 18rem;">
+      <img src="{{item.foodImagePath}}" class="card-img-top" alt="{{item.foodName}}" />
+      <div class="card-body">
+        <h5 class="card-title" style="font-weight: bold; text-align: center;">{{item.foodName | uppercase}}</h5>
+        <p class="card-text" style="text-align: center;">
+          Price: {{item.foodPrice | currency:'INR'}}
+        </p>
+        <button type="button" class="btn btn-light" style="margin-left: 25%; background: orange;
+        color: white;" (click)="orderBurger(item)">Order Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-template #noFoodItems>
+  <div>
+    <h3>Food Items are not available</h3>
+    <p>{{errorMessage}}</p>
+  </div>
+</ng-template>

@@ -47,10 +47,15 @@
     color: var(--primary-color);
     font-size: 50px;
     font-weight: bold;
+    
 
 }
 .stepBox p{
     color: white;
     font-size: 20px;
     font-style: italic;
+}
+
+.stepBox{
+    margin-bottom: 15px;
 }

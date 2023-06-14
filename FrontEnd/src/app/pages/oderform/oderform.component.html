@@ -1,0 +1,77 @@
+<div class="banner">
+  <div class="form-body">
+    <h3 style="text-align: center">Enjoy your {{ foodName }}</h3>
+    <form 
+    [formGroup]="orderForm" 
+    (ngSubmit)="orderFood()">
+    <div class="form-group">
+      <label for="foodName">Food Name</label>
+      <input style="color: aliceblue;" [disabled]="true" type="text" id="foodName" formControlName="foodName" />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="emailId" formControlName="emailId" />
+      <div id="emailIdError" class="alert alert-danger mt-1" role="alert" *ngIf="orderForm.controls['emailId'].invalid && orderForm.controls['emailId'].dirty">
+
+        <span *ngIf="orderForm.controls['emailId']?.errors?.['required']">Field is Required</span>
+        <span *ngIf="orderForm.controls['emailId']?.errors?.['pattern']">please enter valid Email Address</span>
+        
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="mobileNo">Mobile No</label>
+      <input type="tel" id="mobileNumber" formControlName="mobileNumber" />
+      <div id="mobileNumberError" class="alert alert-danger mt-1" role="alert" *ngIf="orderForm.controls['mobileNumber'].invalid && orderForm.controls['mobileNumber'].dirty">
+
+        <span *ngIf="orderForm.controls['mobileNumber']?.errors?.['required']">Field is Required</span>
+        <span *ngIf="orderForm.controls['mobileNumber']?.errors?.['pattern']">please enter valid Mobile Number</span>
+        
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address</label>
+      <textarea id="address" formControlName="address"></textarea>
+      <div id="addressError" class="alert alert-danger mt-1" role="alert" *ngIf="orderForm.controls['address'].invalid && orderForm.controls['address'].dirty">
+
+        <span *ngIf="orderForm.controls['address']?.errors?.['required']">Field is Required</span>
+        <span *ngIf="orderForm.controls['address']?.errors?.['addressError']">please enter valid Address</span>
+        
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" formControlName="quantity" />
+      <div id="quantityError" class="alert alert-danger mt-1" role="alert" *ngIf="orderForm.controls['quantity'].invalid && orderForm.controls['quantity'].dirty">
+
+        <span *ngIf="orderForm.controls['quantity']?.errors?.['required']">Field is Required</span>
+        <span *ngIf="orderForm.controls['quantity']?.errors?.['max'] || orderForm.controls['quantity']?.errors?.['min']">choose quantity in between 0 and 5</span>
+        
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="orderDate">Order Date</label>
+      <input type="date" id="orderDate" formControlName="orderDate" />
+      <div id="orderDateError" class="alert alert-danger mt-1" role="alert" *ngIf="orderForm.controls['orderDate'].invalid && orderForm.controls['orderDate'].dirty">
+
+        <span *ngIf="orderForm.controls['orderDate']?.errors?.['required']">Field is Required</span>
+        <span *ngIf="orderForm.controls['orderDate']?.errors?.['orderDateError']">please enter valid date</span>
+        
+      </div>
+    </div>
+    <span>
+      <button type="submit" [disabled]="orderForm.invalid">Submit</button>
+      <button style="background-color: orange; margin-left: 180px;" routerLink="/menu" id="showMenu" type="submit">Show Menu</button>
+    </span>
+
+    <div class="form-group" style="margin-top: 10px;">
+      <span *ngIf="successMessage" class="alert alert-success">{{successMessage}}</span>
+      <span *ngIf="errorMessage" class="alert alert-danger">{{errorMessage}}</span>
+    </div>
+    </form>
+  </div>
+</div>

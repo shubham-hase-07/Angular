@@ -1,0 +1,66 @@
+.banner{
+    background-image: url(../../../assets/imgs/banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding: 50px;
+}
+h3 {
+    color: aliceblue;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  label {
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 5px;
+    
+  }
+  
+  input, textarea {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    margin: 5px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width:400px;
+  }
+  .alert-danger {
+    
+    font-size: 14px; /* Adjust the font size to your desired value */
+    padding: 5px; /* Adjust the padding to your desired value */
+    width: 400px;
+  }
+  .alert-success {
+    font-size: 14px; /* Adjust the font size to your desired value */
+    padding: 5px; /* Adjust the padding to your desired value */
+    width: 400px;
+  }
+  
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+    

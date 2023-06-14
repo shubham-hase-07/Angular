@@ -5,11 +5,17 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 
+import {OderformComponent} from './pages/oderform/oderform.component';
+
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'menu',component:MenuComponent},
   {path:'about',component:AboutComponent},
-  {path:'contact',component:ContactComponent}
+  {path:'contact',component:ContactComponent},
+  //{path: 'order/:foodName', component:OrderComponent},
+  {path: 'order/:foodName', component:OderformComponent},
+  {path:'**',component:HomeComponent}
+  
 ];
 
 @NgModule({

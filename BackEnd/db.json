@@ -1,0 +1,333 @@
+{
+  "foodItemList": [
+    {
+      "foodId": 1,
+      "foodImagePath": "../../../assets/imgs/vegie-burger.png",
+      "foodName": "Veggie burger",
+      "foodPrice": 100
+    },
+    {
+      "foodId": 2,
+      "foodImagePath": "../../../assets/imgs/cheeseburger-au-cheval.png",
+      "foodName": "Cheese Burger",
+      "foodPrice": 421
+    },
+    {
+      "foodId": 3,
+      "foodImagePath": "../../../assets/imgs/the-whiskey-king.png",
+      "foodName": "Whiskey King Burger ",
+      "foodPrice": 137
+    },
+    {
+      "foodId": 4,
+      "foodImagePath": "../../../assets/imgs/vegmaharaja.png",
+      "foodName": "Veg Maharaja Burger",
+      "foodPrice": 374
+    },
+    {
+      "foodId": 5,
+      "foodImagePath": "../../../assets/imgs/double-patty-cheese-holeman.png",
+      "foodName": "Double Patty Burger",
+      "foodPrice": 253
+    },
+    {
+      "foodId": 6,
+      "foodImagePath": "../../../assets/imgs/buckhornburger.png",
+      "foodName": "Buckhorn Burger",
+      "foodPrice": 352
+    },
+    {
+      "foodId": 7,
+      "foodImagePath": "../../../assets/imgs/animal-in-and-out.png",
+      "foodName": "Animal Style Burger",
+      "foodPrice": 534
+    },
+    {
+      "foodId": 8,
+      "foodImagePath": "../../../assets/imgs/chargrilledburger.png",
+      "foodName": "Chargrilled Burger",
+      "foodPrice": 381
+    }
+  ],
+  "orderList": [
+    {
+      "id": 1,
+      "foodName": "Chargrilled Burger",
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": 9172805245,
+      "address": "At- Mhaladevi, Tal- Akole, 422601",
+      "quantity": 2,
+      "orderDate": "2023-06-28"
+    },
+    {
+      "id": 2,
+      "foodName": "Chargrilled Burger",
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": 9172805245,
+      "address": "At- Mhaladevi, Tal- Akole, 422601",
+      "quantity": 2,
+      "orderDate": "2023-06-28"
+    },
+    {
+      "id": 3,
+      "foodName": "Chargrilled Burger",
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": 9172805245,
+      "address": "At- Mhaladevi, Tal- Akole, 422601",
+      "quantity": 2,
+      "orderDate": "2023-06-28"
+    },
+    {
+      "emailId": "sdf@sdf.co",
+      "mobileNumber": "1111111111",
+      "address": "sdf",
+      "quantity": "1",
+      "orderDate": "2023-06-29",
+      "foodName": "Veg Maharaja Burger",
+      "id": 4
+    },
+    {
+      "emailId": "fdvs@sdf.com",
+      "mobileNumber": "1111111111",
+      "address": "sadf",
+      "quantity": "1",
+      "orderDate": "2023-06-21",
+      "foodName": "Veg Maharaja Burger",
+      "id": 5
+    },
+    {
+      "emailId": "sd@gmail.com",
+      "mobileNumber": "1234567899",
+      "address": "asdf",
+      "quantity": "1",
+      "orderDate": "2023-06-22",
+      "foodName": "Veg Maharaja Burger",
+      "id": 6
+    },
+    {
+      "emailId": "sf@sdf.co",
+      "mobileNumber": "1111111111",
+      "address": "dfsdf",
+      "quantity": "1",
+      "orderDate": "2023-06-29",
+      "foodName": "Veg Maharaja Burger",
+      "id": 7
+    },
+    {
+      "emailId": "fsdf@sdf.csd",
+      "mobileNumber": "1111111111",
+      "address": "sdfsd",
+      "quantity": "1",
+      "orderDate": "2023-06-20",
+      "foodName": "Veg Maharaja Burger",
+      "id": 8
+    },
+    {
+      "emailId": "gsdfv@df.csdf",
+      "mobileNumber": "2222222222",
+      "address": "sddfasf",
+      "quantity": "1",
+      "orderDate": "2023-06-23",
+      "foodName": "Veg Maharaja Burger",
+      "id": 9
+    },
+    {
+      "emailId": "sdf@sdf.con",
+      "mobileNumber": "1111111111",
+      "address": "sadfasdf",
+      "quantity": "1",
+      "orderDate": "2023-06-21",
+      "foodName": "Chargrilled Burger",
+      "id": 10
+    },
+    {
+      "emailId": "asdf@sdf.cosdf",
+      "mobileNumber": "2222222222",
+      "address": "sdfa",
+      "quantity": "1",
+      "orderDate": "2023-06-28",
+      "foodName": "Chargrilled Burger",
+      "id": 11
+    },
+    {
+      "emailId": "asdf@sdf.cosdf",
+      "mobileNumber": "2222222222",
+      "address": "sdfa",
+      "quantity": "1",
+      "orderDate": "2023-06-28",
+      "foodName": "Chargrilled Burger",
+      "id": 12
+    },
+    {
+      "emailId": "asdf@sdf.cosdf",
+      "mobileNumber": "2222222222",
+      "address": "sdfa",
+      "quantity": "1",
+      "orderDate": "2023-06-28",
+      "foodName": "Chargrilled Burger",
+      "id": 13
+    },
+    {
+      "emailId": "asdf@sdf.cosdf",
+      "mobileNumber": "2222222222",
+      "address": "sdfa",
+      "quantity": 1,
+      "orderDate": "2023-06-28",
+      "foodName": "Chargrilled Burger",
+      "id": 14
+    },
+    {
+      "emailId": "asdf@sdf.cosdf",
+      "mobileNumber": "2222222222",
+      "address": "sdfa",
+      "quantity": 1,
+      "orderDate": "2023-06-28",
+      "foodName": "Chargrilled Burger",
+      "id": 15
+    },
+    {
+      "emailId": "sdf@fasd.csd",
+      "mobileNumber": "2222222222",
+      "address": "sdfasdf",
+      "quantity": "1",
+      "orderDate": "2023-06-30",
+      "foodName": "Chargrilled Burger",
+      "id": 16
+    },
+    {
+      "emailId": "sdf@sdf.csd",
+      "mobileNumber": "3333333333",
+      "address": "sdfas",
+      "quantity": "1",
+      "orderDate": "2023-06-27",
+      "foodName": "Chargrilled Burger",
+      "id": 17
+    },
+    {
+      "emailId": "sadf@sdf.cds",
+      "mobileNumber": "6666666666",
+      "address": "fgsdf",
+      "quantity": "1",
+      "orderDate": "2023-06-21",
+      "foodName": "Whiskey King Burger ",
+      "id": 18
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-02",
+      "foodName": "Whiskey King Burger ",
+      "id": 19
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-02",
+      "foodName": "Whiskey King Burger ",
+      "id": 20
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 21
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 22
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 23
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 24
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 25
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 26
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 27
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 28
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 29
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-07-04",
+      "foodName": "Whiskey King Burger ",
+      "id": 30
+    },
+    {
+      "emailId": "shubham@gmail.com",
+      "mobileNumber": "2423434344",
+      "address": "dfsasdfsdf",
+      "quantity": 4,
+      "orderDate": "2023-06-28",
+      "foodName": "Whiskey King Burger ",
+      "id": 31
+    }
+  ]
+}
